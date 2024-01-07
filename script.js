@@ -94,7 +94,6 @@ for (let button of buttons) {
     }
     else if(count===9){
         draw=true;
-        console.log("Draw");
         displaymsg();
     }
   };

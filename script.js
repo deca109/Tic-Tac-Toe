@@ -88,7 +88,6 @@ for (let button of buttons) {
         }
         else{
             winner="X";
-            console.log("Winner is X");
         }
         displaymsg();
     }

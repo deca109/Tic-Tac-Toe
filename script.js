@@ -75,8 +75,10 @@ newGame.addEventListener("click",()=>{
 for (let button of buttons) {
   button.onclick = () => {
     if (moveX) {
+        button.style.color="#3F7D20";
       button.innerText = "X";
     } else {
+        button.style.color="#454955";
       button.innerText = "O";
     }
     button.disabled = true;
